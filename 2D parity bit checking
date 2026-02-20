@@ -1,0 +1,7 @@
+def calculate_parity_bit (bits);
+    return sum (bits)%2
+def generate_2d_parit(data,rows,cols);
+     for i in range (rows): 
+    parity = calculate _parity_bit(data[i])
+    data[i].append(parity)
+parity_row =[]
